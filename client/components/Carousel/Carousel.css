@@ -6,7 +6,7 @@
 
 .carousel {
   display: grid;
-  grid-template-rows: minmax(240px, 480px) 85px 85px;
+  grid-template-rows: minmax(240px, 100%) 85px 85px;
   justify-items: center;
   margin: 0% 5%;
 }

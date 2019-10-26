@@ -151,7 +151,7 @@ class Carousel extends React.Component {
   }
 
   componentDidMount(){
-    window.addEventListener('click', this.updateLocation);
+    // window.addEventListener('click', this.updateLocation);
     this.getImages(this.props.match.params.productId);
   }
 
@@ -160,8 +160,8 @@ class Carousel extends React.Component {
   }
 
   getImages(productId){
-    let http = 'http://ec2-18-219-198-117.us-east-2.compute.amazonaws.com/urls';
-    // let http = 'http://localhost:3003/urls/random';
+    // let http = 'http://ec2-18-219-198-117.us-east-2.compute.amazonaws.com/urls';
+    let http = 'http://localhost:3003/urls/random';
     axios.get(http, {
       params: {
         productId: productId,

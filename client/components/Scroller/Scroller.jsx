@@ -2,7 +2,7 @@ import React from 'react'
 import Style from './Scroller.css';
 import MainImage from '../MainImage/MainImage.jsx';
 
-const Scroller = ({ url, scrollLeft, scrollRight, exitHeart,
+const Scroller = ({ url, scrollLeft, scrollRight, exitHeart, rowDisplay,
                     toggleFavorite, favorited, overArrow, overHeart,
                     exitArrow, lefthovering, righthovering, toggleImageZoom }) => {
     return (

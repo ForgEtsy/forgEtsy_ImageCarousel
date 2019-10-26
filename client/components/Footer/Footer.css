@@ -3,6 +3,7 @@
   display: flex;
   margin-top: 5px;
   align-items: center;
+  grid-area: footer;
 }
 
 .avatar {
